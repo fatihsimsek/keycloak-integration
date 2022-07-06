@@ -9,7 +9,6 @@ import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-
 @Entity
 @Table(name="book")
 @Builder
@@ -25,6 +24,7 @@ public class Book {
     private String writerName;
 
     private BigDecimal amount;
+
     private Integer stock;
 
     @Column(name="createDate")

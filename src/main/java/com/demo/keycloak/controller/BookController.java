@@ -26,9 +26,6 @@ public class BookController {
     @PostMapping("/create")
     public ResponseEntity<ApiResponse> create(@Valid @RequestBody BookCreateRequest request) {
         Book book = bookService.create(request);
-        if(book == null){
-            return ResponseEntity.badRequest().body(new ApiResponse(false, "Request is not valid"));
-        }
         return ResponseEntity.ok(new ApiResponse(true, book.getId()));
     }
 

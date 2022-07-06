@@ -40,6 +40,7 @@ public class BookServiceImpl implements BookService {
                     .name(request.getName())
                     .writerName(request.getWriterName())
                     .amount(request.getAmount())
+                    .stock(request.getStock())
                     .createDate(LocalDateTime.now()).build();
     }
 }

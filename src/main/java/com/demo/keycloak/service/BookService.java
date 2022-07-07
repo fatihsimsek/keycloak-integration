@@ -1,7 +1,7 @@
 package com.demo.keycloak.service;
 
-import com.demo.keycloak.adapter.BookCreateRequest;
-import com.demo.keycloak.adapter.BookDto;
+import com.demo.keycloak.port.BookCreateRequest;
+import com.demo.keycloak.port.BookDto;
 import com.demo.keycloak.entity.Book;
 
 import java.util.List;

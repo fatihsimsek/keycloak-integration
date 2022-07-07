@@ -1,8 +1,8 @@
 package com.demo.keycloak.controller;
 
-import com.demo.keycloak.adapter.ApiResponse;
-import com.demo.keycloak.adapter.BookCreateRequest;
-import com.demo.keycloak.adapter.BookDto;
+import com.demo.keycloak.port.ApiResponse;
+import com.demo.keycloak.port.BookCreateRequest;
+import com.demo.keycloak.port.BookDto;
 import com.demo.keycloak.entity.Book;
 import com.demo.keycloak.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;

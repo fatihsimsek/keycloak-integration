@@ -1,6 +1,6 @@
 package com.demo.keycloak.exception;
 
-import com.demo.keycloak.adapter.ApiResponse;
+import com.demo.keycloak.port.ApiResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.demo.keycloak.adapter;
+package com.demo.keycloak.port;
 
 import lombok.Data;
 
